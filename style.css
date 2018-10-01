@@ -1,9 +1,16 @@
 /* Your CSS styles go here */
 #imageContainer
 {
-    width:175px;
-    height:175px;
+    width:155px;
+    height:155px;
     padding-right: 10px;
+     -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+#imageContaine: hover
+{
+    width:195px;
+    height:195px;
 }
 
 a{text-decoration: none;}
@@ -96,6 +103,13 @@ input[type="submit"] {
     position: absolute;
     top: 0px;
     right: 0px;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+#header img:hover
+{
+    width:195px;
+    height:195px;
 }
 
 #header_img
@@ -106,7 +120,9 @@ input[type="submit"] {
 body
 {
     background-color: linen;
+    /*font-family: 'Acme', sans-serif;*/
 }
+
 
 .tite_container
 {
