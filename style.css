@@ -156,3 +156,14 @@ body
     margin:0 auto;
     margin-bottom: 20px;
 }
+@media screen and (max-width:1010px) {
+  #header_img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1010px) {
+  body {
+    background-color: #f9f900; 
+  }
+}
